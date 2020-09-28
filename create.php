@@ -25,13 +25,15 @@
     );
       $updated_link = '<a href="update.php?id'.$_GET['id'].'">update</a>';
   }
+
   $query = "SELECT * FROM author";
   $result = mysqli_query($link, $query);
-  $select_form = '<select name=”author_id”>';
+  $select_form = '<select name="author_id">';
   while ($row = mysqli_fetch_array($result)) {
       $select_form .= '<option value="'.$row['id'].'">'.$row['name'].'</option>';
   }
   $select_form .= '</select>';
+
 
  ?>
 
