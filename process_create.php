@@ -5,16 +5,15 @@
         'title' => mysqli_real_escape_string($link, $_POST['title']),
         'description' => mysqli_real_escape_string($link, $_POST['description']),
         'author_id' => mysqli_real_escape_string($link, $_POST['author_id'])
-
     );
     $query = "
         INSERT INTO topic
-            (title, description, created,  author_id)
+            (title, description, created, author_id)
             VALUES(
                 '{$filtered['title']}',
                 '{$filtered['description']}',
                 NOW(),
-                '{$filtered['author_id']}’
+                '{$filtered['author_id']}'
             )
     ";
 
