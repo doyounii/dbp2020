@@ -24,3 +24,4 @@
     } else {
         echo '성공했습니다. <a href="index.php">돌아가기</a>';
     }
+
