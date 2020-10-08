@@ -9,8 +9,8 @@
   }
 
   $article = array(
-    'title' => 'Welcome',
-    'description' => 'Database is ...'
+    'title' => 'I Love 덥뮤다',
+    'description' => ' 한국 남성 보이그룹 더보이즈 버뮤다 삼각지대 '
   );
 
   $update_link = '';
@@ -19,7 +19,8 @@
 
   if (isset($_GET['id'])) {
       $filtered_id = mysqli_real_escape_string($link, $_GET['id']);
-      $query = "SELECT * FROM topic LEFT JOIN author ON topic.author_id = author.id WHERE topic.id={$filtered_id}";
+      $query = "SELECT * FROM topic LEFT JOIN author ON topic.author_id = author.id
+      WHERE topic.id={$filtered_id}";
       $result = mysqli_query($link, $query);
       $row = mysqli_fetch_array($result);
       $article['title'] = htmlspecialchars($row['title']);
@@ -41,13 +42,13 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>DATABASE</title>
+    <title>더보이즈 짱보이즈</title>
   </head>
   <body>
-    <h1><a href="index.php">DATABASE</a></h1>
-    <a href="author.php">author</a>
+    <h1><a href="index.php">더보이즈 짱보이즈</a></h1>
+    <a href="author.php">노래 찾기</a>
     <ol><?= $list ?></ol>
-    <a href="create.php">create</a>
+    <a href="create.php">~멤버 추가하기~</a>
     <?= $update_link ?>
     <?= $delete_link ?>
     <h2><?= $article['title'] ?></h2>
