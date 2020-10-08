@@ -23,3 +23,4 @@
     } else {
         header('Location:author.php?id='.$filtered['id']);
     }
+
