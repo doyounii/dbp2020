@@ -29,7 +29,7 @@
         'profile' => ''
     );
 
-    $label_submit = 'Create author';
+    $label_submit = 'Create';
     $form_action = 'process_create_author.php';
     $form_id = '';
 
@@ -53,14 +53,14 @@
         <title>DATABASE</title>
     </head>
     <body>
-        <h1><a href="index.php">DATABASE</a></h1>
-        <p><a href="index.php">topic</a></p>
+        <h1><a href="index.php">더보이즈 짱보이즈</a></h1>
+        <p><a href="index.php">선곡 리스트</a></p>
 
         <table border="1">
             <tr>
-                <th>id</th>
-                <th>name</th>
-                <th>profile</th>
+                <th>번호</th>
+                <th>노래 제목</th>
+                <th>작곡가</th>
                 <th>update</th>
                 <th>delete</th>
             </tr>
@@ -69,9 +69,9 @@
         <br>
         <form action="<?=$form_action?>" method="post">
             <?=$form_id?>
-            <label for="fname">name:</label><br>
+            <label for="fname">노래 제목:</label><br>
             <input type="text" id="name" name="name" placeholder="name" value="<?=$escaped['name']?>"><br>
-            <label for="lname">profile:</label><br>
+            <label for="lname">자곡가:</label><br>
             <input type="text" id="profile" name="profile" placeholder="profile" value="<?=$escaped['profile']?>"><br><br>
             <input type="submit" value="<?=$label_submit?>">
         </form>
