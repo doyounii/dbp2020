@@ -18,3 +18,4 @@
     } else {
         header('Location: author.php');
     }
+
