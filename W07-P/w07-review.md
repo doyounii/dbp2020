@@ -1,6 +1,7 @@
 ## 1. 새로 배운 내용
 
 + 3개 이상의 테이블 조회하기
+
 ex)select e.*, salary
 from dept_emp de
 inner join employees e on e.emp_no=de.emp_no
@@ -10,6 +11,7 @@ order by salary desc
 limit 5;
 
 + php에서 print와 echo의 차이점
+
  print는 하나의 입력을 받아 리턴하는 것이고 echo는 하나 이상의 문자열 출력하는 것이다.
 
 
