@@ -11,7 +11,7 @@ order by salary desc
 limit 5;
 
 + php에서 print와 echo의 차이점  
-  print는 하나의 입력을 받아 리턴하는 것이고 echo는 하나 이상의 문자열 출력하는 것이다.
+  print는 입력을 받아 리턴하는 것이고 echo는 하나 이상의 문자열 출력하는 것이다.
 
 
 ## 2. 문제가 발생한 부분과 해결 과정
@@ -19,7 +19,7 @@ limit 5;
 
 ## 3. 참고할 만한 내용
 
-+ 3개의 테이블 outer join에 대해서도 찾아보았다.
++ 3개의 테이블 outer join에 대해서도 찾아보았다.  
 https://m.blog.naver.com/PostView.nhn?blogId=wideeyed&logNo=221435115388&proxyReferer=https:%2F%2Fwww.google.com%2F
 
 
