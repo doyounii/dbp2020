@@ -36,7 +36,7 @@ https://m.blog.naver.com/PostView.nhn?blogId=wideeyed&logNo=221435115388&proxyRe
 
 ## 5. 실습 영상 
 
-+ 추가한 부분
++ 추가한 부분 (search.php )
 
 Sales 부서에서 급여를 가장 많이 받는 직원을 출력하는데
 사용자에게 숫자를 입력받아 입력받은 수만큼 직원 출력하기 
