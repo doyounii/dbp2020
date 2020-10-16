@@ -2,12 +2,12 @@
 
 + 3개 이상의 테이블 조회하기
 
-ex)select e.*, salary
-from dept_emp de
-inner join employees e on e.emp_no=de.emp_no
-inner join salaries s on s.emp_no=de.emp_no
-where de.to_date=’9999-01-01’ and dept_no=’D005’
-order by salary desc
+ex)select e.*, salary  
+from dept_emp de  
+inner join employees e on e.emp_no=de.emp_no  
+inner join salaries s on s.emp_no=de.emp_no  
+where de.to_date=’9999-01-01’ and dept_no=’D005’  
+order by salary desc  
 limit 5;
 
 + php에서 print와 echo의 차이점
