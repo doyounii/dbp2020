@@ -71,4 +71,7 @@ $query = "SELECT x.customer_id, x.count, y.first_name, y.last_name, y.email FROM
 
 
 ## 영상 링크
+
++대여하기 버튼은 임의로 만들어보았습니다!
+
 https://youtu.be/-uUV6zIBkZM  
