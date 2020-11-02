@@ -21,6 +21,9 @@
 샘플 데이트 saklia를 이용해 영화 대여 사이트를 만들었다.  
 
 + 정보1  : 원하는 대여일 이상 대여 가능한 영화 목록 보여주기
+~~~
+SELECT * FROM film where rental_duration > '".$filtered_number.
+~~~
 
 + 정보2 : 카테고리 별 영화 검색하기
 
