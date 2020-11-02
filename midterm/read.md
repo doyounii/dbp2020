@@ -21,17 +21,17 @@
 샘플 데이트 saklia를 이용해 영화 대여 사이트를 만들었다.  
 
 + 정보1  : 원하는 대여일 이상 대여 가능한 영화 목록 보여주기  
-
-사용자가 입력한 날짜 이상 대여 가능한 영화들을 보여준다.
 ~~~
+사용자가 입력한 날짜 이상 대여 가능한 영화들을 보여준다.    
+
 $filtered_number = mysqli_real_escape_string($link, $_GET['num']);  
 $query = "SELECT * FROM film where rental_duration > '".$filtered_number."' LIMIT 15";
 ~~~
 
 + 정보2 : 카테고리 별 영화 검색하기  
+~~~  
+사용자가 입력한 카테고리의 영화들을 보여준다.     
 
-사용자가 입력한 카테고리의 영화들을 보여준다.   
-~~~
   $filtered_number = mysqli_real_escape_string($link, $_GET['name']);  
   $query = "SELECT c.name, f.title, f.film_id, f.length FROM film f
             inner join film_category fc ON fc.film_id = f.film_id
@@ -41,9 +41,9 @@ $query = "SELECT * FROM film where rental_duration > '".$filtered_number."' LIMI
 ~~~
 
 + 정보3 : 상영시간 별 영화 검색하기  
-
-영화의 총 상영시간대 별로 영화를 보여준다.   
 ~~~
+영화의 총 상영시간대 별로 영화를 보여준다.   
+
 + 60분 이하의 영화 목록 10개 
 $query = "SELECT film_id,title, length FROM film
         where  length < 60  limit 10 ";  
@@ -59,9 +59,8 @@ $query = "SELECT film_id,title, length FROM film
 ~~~
 
 + 정보4 : 가장 영화를 많이 본 고객 TOP 15
-
 ~~~
-영화를 가장 많이 본 고객 15명을 보여준다.
+영화를 가장 많이 본 고객 15명을 보여준다.    
 
 $query = "SELECT x.customer_id, x.count, y.first_name, y.last_name, y.email FROM
     (SELECT customer_id, count(*) count FROM rental
