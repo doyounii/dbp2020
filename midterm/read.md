@@ -71,3 +71,4 @@ $query = "SELECT x.customer_id, x.count, y.first_name, y.last_name, y.email FROM
 
 
 ## 영상 링크
+https://youtu.be/-uUV6zIBkZM  
