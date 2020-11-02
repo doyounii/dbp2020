@@ -16,7 +16,7 @@
 3. 가상환경을 따로 설치하지 않아도 된다.
 
 
-##  발견환 정보 및 웹 사이트 소개
+##  발견 정보 및 웹 사이트 소개
 
 샘플 데이트 saklia를 이용해 영화 대여 사이트를 만들었다.  
 
@@ -68,3 +68,6 @@ $query = "SELECT x.customer_id, x.count, y.first_name, y.last_name, y.email FROM
     LIMIT 15  )x JOIN  (SELECT*FROM customer)y
     ON x.customer_id=y.customer_id";
 ~~~
+
+
+## 영상 링크
