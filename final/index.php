@@ -13,7 +13,7 @@
       }
       #header {
         text-align: center;
-        border: 1px solid #a8daf9;
+        border: 10px solid #a8daf9;
         border-radius:100px;
         padding: 20px;
         margin-bottom: 60px;
