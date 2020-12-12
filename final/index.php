@@ -71,12 +71,12 @@
 
       </div>
       <div id="center">
-        <h3><a href = " "> 직종별 채용 정보 </a></h3>
+        <h3><a> 직종별 채용 정보 </a></h3>
 
 
       </div>
       <div id="right">
-        <h3><a href = "closedt.php"> 마감일자별 채용 정보 </a></h3>
+        <h3><a> 마감일자별 채용 정보 </a></h3>
 
       </div>
 
