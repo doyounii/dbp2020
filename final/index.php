@@ -2,49 +2,48 @@
 <html lang="ko">
   <head>
     <meta charset="utf-8">
-    <title>CSS</title>
+    <title>채용 정보 서비스</title>
     <style>
       #container {
-        background-color:#eaf7fe;
-        width: 940px;
-        margin: 0px auto;
         padding: 300px;
         border: 1px solid #a8daf9;
+        background-color:#eaf7fe;
+        width: 1000px;
+        margin: 0px auto;
       }
       #header {
+        text-align: center;
         border: 1px solid #a8daf9;
-        border-radius:10px;
+        border-radius:100px;
         padding: 20px;
         margin-bottom: 60px;
-        text-align: center;
-
       }
       #left {
-        background-color: #a8daf9;
-        width: 185px;
-        padding: 20px;
         margin-left: 70px;
         margin-right: 60px;
         margin-bottom: 100px;
+        background-color: #a8daf9;
+        width: 185px;
+        padding: 20px;
         float: left;
         border: 1px solid #a8daf9;
       }
       #center {
+        margin-right: 60px;
+        margin-bottom: 20px;
         background-color: #a8daf9;
         width: 185px;
         padding: 20px;
-        margin-right: 60px;
-        margin-bottom: 20px;
         float: left;
         border: 1px solid #a8daf9;
       }
 
       #right {
+        margin-right: 60px;
+        margin-bottom: 20px;
         background-color: #a8daf9;
         width: 185px;
         padding: 20px;
-        margin-right: 60px;
-        margin-bottom: 20px;
         float: left;
         border: 1px solid #a8daf9;
       }
