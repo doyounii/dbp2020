@@ -37,7 +37,6 @@
         float: left;
         border: 1px solid #a8daf9;
       }
-
       #right {
         margin-right: 60px;
         margin-bottom: 20px;
@@ -47,13 +46,10 @@
         float: left;
         border: 1px solid #a8daf9;
       }
-
-
       a{
         color:black;
         text-decoration: none;
       }
-
     </style>
   </head>
   <body>
@@ -67,18 +63,13 @@
          <input type="text" name="name" placeholder="ex) 서울, 전북, 경북, 대구">
          <input type="submit" value="Select"></br>
       </form>
-
       </div>
       <div id="center">
         <h3><a> 직종별 채용 정보 </a></h3>
-
-
       </div>
       <div id="right">
-        <h3><a> 마감일자별 채용 정보 </a></h3>
-
+        <h3><a href="closedt.php"> 마감일 순 채용 정보 </a></h3>
       </div>
-
     </div>
   </body>
 </html>
