@@ -21,7 +21,7 @@
       $emp_info .= '<td>'.$row['region'].'</td>';
       $emp_info .= '<td>'.$row['sal'].'</td>';
       $emp_info .= '<td>'.$row['closedt'].'</td>';
-      $emp_info .= '<td><a href="'.$row['wantedinfourl'].'">'.$row['wantedinfourl'].'</a></td>';
+      $emp_info .= '<td style="text-align:center"><a href="'.$row['wantedinfourl'].'" >'."바로가기".'</a></td>';
       $emp_info .= '</tr>';
   }
 ?>
