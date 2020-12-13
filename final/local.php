@@ -1,4 +1,6 @@
 <?php
+  // 지역별 채용 정보
+
   $link = mysqli_connect('localhost:3307', 'root', 'rootroot', 'final');
 
   if (mysqli_connect_errno()) {
