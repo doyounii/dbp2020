@@ -5,11 +5,12 @@
     <title>채용 정보 서비스</title>
     <style>
       #container {
-        padding: 300px;
+        padding: 500px;
         border: 1px solid #a8daf9;
         background-color:#eaf7fe;
         width: 1000px;
         margin: 0px auto;
+        margin-bottom: 1000px;
       }
       #header {
         text-align: center;
@@ -48,7 +49,6 @@
       }
       a{
         color:black;
-        text-decoration: none;
       }
     </style>
   </head>
@@ -70,6 +70,7 @@
       <div id="right">
         <h3><a href="closedt.php"> 마감일 순 채용 정보 </a></h3>
       </div>
+     
     </div>
   </body>
 </html>
