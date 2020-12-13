@@ -6,9 +6,6 @@
       exit();
   }
 
-  settype($_GET['name'], 'string');
-  $filtered_number = mysqli_real_escape_string($link, $_GET['name']);
-
   $query = "SELECT distinct company, closedt, region, saltpnm, sal,  wantedinfourl  FROM info order by closedt asc limit 30";
   $result = mysqli_query($link, $query);
   $emp_info = '';
